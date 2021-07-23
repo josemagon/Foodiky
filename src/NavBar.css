@@ -1,0 +1,38 @@
+.NavBar{
+    background: white;
+    min-height: 60px;
+    color: black;
+    padding: 5px 0 5px 0;
+}
+
+.NavBar-container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar-logo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.NavBar img{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.NavBar-menu{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    background: #1a73e8;
+    min-width: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.NavBar-menu span{
+    margin-left: 5px;
+}

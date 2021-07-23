@@ -1,0 +1,142 @@
+.Menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background: linear-gradient(#ffffffbb, #ffffff);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    z-index: 1;
+}
+
+.Menu-content-outside{
+    background: #1a73e8;
+    padding: 10px;
+}
+
+.Menu-content{
+    background: #1a73e8;
+    border: 2px solid white;
+    padding: 30px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.Menu img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+
+.Menu ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Menu li{
+    margin-bottom: 15px;
+}
+
+.logout-btn a{
+    color: rgb(207, 0, 0);
+    font-weight: bolder;
+    background: rgba(255,255,255,0.0);
+    border: 0;
+    cursor: pointer;
+}
+
+.Menu-close{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.Menu-UserMenu{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.EditOptions{
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* background: linear-gradient(#ffffffbb, #ffffff); */
+    background: #fffffff9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(104, 104, 104);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    z-index: 1;
+}
+
+.EditOptions form{
+    width: 80%;
+}
+
+.EditOptions-InputControl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.EditOptions input{
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    width: 100%;
+    display: block;
+}
+
+    .EditOptions input:focus{
+        border: 1px solid #1a73e8;
+        outline: none;
+    }
+
+.EditOptions button{
+    padding: 10px;
+    /* min-width: 100px; */
+    color: white;
+    background-color: #1a73e8;
+    border: 0;
+    width: 100%;
+}
+
+
+.EditOptions table{
+    width: 90%;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+    .EditOptions table th{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .EditOptions table td{
+        text-align: center;
+        min-width: 50px;
+        padding: 10px;
+        border-bottom: 2px solid black;
+        margin: 0;
+    }
+
+    .EditOptions table thead{
+        color: white;
+        background-color: rgb(51, 51, 51);
+    }

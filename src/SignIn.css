@@ -1,0 +1,65 @@
+.SignIn{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    padding-top: 50px;
+    height: 100%;
+    color: #2c2c2c;
+}
+
+    .SignIn-Box{
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 3px;
+    }
+
+    .SignIn-logo{
+        text-align: center;
+    }
+
+    .register h2{
+
+    }
+
+    .SignIn-Box form{
+        padding: 20px;
+    }
+
+    .input-control{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .SignIn-Box input{
+        padding: 10px;
+        font-size: 18px;
+        border: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .SignIn-Box input:focus{
+        border: 1px solid #1a73e8;
+        outline: none;
+    }
+
+    .SignIn-Box button{
+        padding: 10px;
+        /* min-width: 100px; */
+        color: white;
+        background-color: #1a73e8;
+        border: 0;
+        width: 100%;
+    }
+
+
+@media (max-width: 850px){ /* version mobil */
+
+    .SignIn-Box{
+        width: 80%;
+    }
+}

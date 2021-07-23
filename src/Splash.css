@@ -1,0 +1,21 @@
+.Splash{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-out;
+}
+
+    .Splash-spinner{
+        background-image: url("./fdkyspinner.gif");
+        background-repeat: no-repeat;
+        min-width: 200px;
+        min-height: 200px;
+        z-index: 5;
+    }

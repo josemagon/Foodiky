@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.Clock{
+    font-family: 'DotGothic16', sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+
+.Clock input{
+    font-family: 'DotGothic16', sans-serif;
+}
